@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-
+  <meta property="og:title" content="My website title" />
+  <meta property="og:description" content="Summary of the contents of the page you are viewing" />
+  <meta property="og:image" content="{{ url_for('static', filename='assets/img/favicon.png') }}" />
   <title>Fruits LearningX</title>
 
   <!-- Google Fonts -->
@@ -56,8 +58,8 @@
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-            <span class="d-none d-md-block dropdown-toggle ps-2">Elfa LearningX</span>
+            <img src="static/assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">firmanda</span>
           </a><!-- End Profile Iamge Icon -->
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
